@@ -1104,6 +1104,21 @@ openapi = ["openapi-core (>=0.16.1,<0.17.0)", "ruamel-yaml"]
 test = ["hatch", "ipykernel", "jupyterlab-server[openapi]", "openapi-spec-validator (>=0.5.1,<0.6.0)", "pytest (>=7.0)", "pytest-console-scripts", "pytest-cov", "pytest-jupyter[server] (>=0.6.2)", "pytest-timeout", "requests-mock", "sphinxcontrib-spelling", "strict-rfc3339", "werkzeug"]
 
 [[package]]
+name = "jupyterlab-spellchecker"
+version = "0.7.3"
+description = "A spell checker for JupyterLab."
+optional = false
+python-versions = ">=3.6"
+files = [
+    {file = "jupyterlab-spellchecker-0.7.3.tar.gz", hash = "sha256:5b862228479b33b95b9d4eb47482b4a11c6732efb2c8c8123c7f88efc3695e76"},
+    {file = "jupyterlab_spellchecker-0.7.3-py3-none-any.whl", hash = "sha256:4c55d46f495498efc21809a3a0f634647feb32f417a0d3ab4e40fd3a0bef9d3a"},
+]
+
+[package.dependencies]
+babel = "*"
+jupyterlab = ">=3.0,<4.0"
+
+[[package]]
 name = "jupyterlab-widgets"
 version = "3.0.7"
 description = "Jupyter interactive widgets for JupyterLab"
@@ -2258,4 +2273,4 @@ testing = ["big-O", "flake8 (<5)", "jaraco.functools", "jaraco.itertools", "more
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.9"
-content-hash = "f603b38ccc0a1916dbcd37981ec80efca71360afe75fc7588935f8b247035627"
+content-hash = "b618569a93ea3e8dd53c2c8146eb4aa1b8b6e17c90f505252ab84b77d3bbbce6"

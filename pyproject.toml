@@ -9,6 +9,7 @@ python = "^3.9"
 jupyterlab = "*"
 jupyterlab-lsp = "*"
 jupyterlab-git = "*"
+jupyterlab-spellchecker = "*"
 ipywidgets = "*"
 
 
