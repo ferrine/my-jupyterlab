@@ -11,6 +11,7 @@ jupyterlab-lsp = "*"
 jupyterlab-git = "*"
 jupyterlab-spellchecker = "*"
 ipywidgets = "*"
+jedi-language-server = "*"
 
 
 [build-system]
