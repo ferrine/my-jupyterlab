@@ -12,6 +12,7 @@ jupyterlab-git = "*"
 jupyterlab-spellchecker = "*"
 ipywidgets = "*"
 jedi-language-server = "*"
+jupyterlab-rise = "*"
 
 
 [build-system]
