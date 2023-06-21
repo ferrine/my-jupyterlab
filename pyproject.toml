@@ -7,12 +7,11 @@ authors = ["Max Kochurov <max.kochurov@pymc-labs.io>"]
 [tool.poetry.dependencies]
 python = "^3.9"
 jupyterlab = "*"
-jupyterlab-lsp = "*"
 jupyterlab-git = "*"
 jupyterlab-spellchecker = "*"
 ipywidgets = "*"
 jedi-language-server = "*"
-jupyterlab-rise = "*"
+RISE = "*"
 
 
 [build-system]
