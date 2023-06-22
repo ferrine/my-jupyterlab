@@ -10,7 +10,8 @@ jupyterlab = "*"
 jupyterlab-git = "*"
 jupyterlab-spellchecker = "*"
 ipywidgets = "*"
-jupyter-lsp = "*"
+jupyterlab-lsp = "*"
+jedi-language-server = "*"
 RISE = "*"
 
 
