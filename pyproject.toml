@@ -12,6 +12,7 @@ jupyterlab-spellchecker = "*"
 ipywidgets = "*"
 jupyterlab-lsp = "*"
 jedi-language-server = "*"
+jupyterlab-scenes = "*"
 RISE = "*"
 
 
