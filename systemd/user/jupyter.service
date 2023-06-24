@@ -1,0 +1,13 @@
+[Unit]
+Description=Jupyter Notebook
+
+[Service]
+Type=simple
+# you need to install poetry globally
+# and clone the repo into $HOME/.my-jupyterlab
+ExecStart=/usr/local/bin/poetry -C %h/.my-jupyterlab run jupyter lab --no-browser --ip 0.0.0.0 --port 9999
+WorkingDirectory=%h
+Restart=always
+
+[Install]
+WantedBy=default.target
