@@ -1105,17 +1105,6 @@ files = [
 ]
 
 [[package]]
-name = "jupyterlab-scenes"
-version = "1.4.0"
-description = "Define subsets of code cells as scenes and execute them."
-optional = false
-python-versions = ">=3.6"
-files = [
-    {file = "jupyterlab_scenes-1.4.0-py3-none-any.whl", hash = "sha256:36d1d9867e3c201ae834e4a1410a2e47153b942b03d3770bde7365f2976fd1c9"},
-    {file = "jupyterlab_scenes-1.4.0.tar.gz", hash = "sha256:a903f729c058c6b7c97f827fc3feabbb1568a0b2f5425dd5a876fbe400f35374"},
-]
-
-[[package]]
 name = "jupyterlab-server"
 version = "2.23.0"
 description = "A set of server components for JupyterLab and JupyterLab like applications."
@@ -2399,4 +2388,4 @@ testing = ["big-O", "flake8 (<5)", "jaraco.functools", "jaraco.itertools", "more
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.9"
-content-hash = "9500c265e946e494afa0d28dffb688df8d4d4ee0274ebc3fb490fc4e10c4af48"
+content-hash = "1a163d8806332198ad6003ea49dfb42cc163e157b015ea979e9cd63c73b62951"
