@@ -1,0 +1,8 @@
+# should be in ~/.ipython/profile_default/startup/
+%config InlineBackend.figure_format = 'retina'
+try:
+    import arviz as az
+    az.style.use("arviz-darkgrid")
+    del az
+except ImportError:
+    pass
