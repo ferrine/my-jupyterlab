@@ -11,6 +11,9 @@ jupyterlab-git = "*"
 ipywidgets = "*"
 dask-labextension = "*"
 jupyterlab_latex = "*"
+jupyterlab-code-formatter = "*"
+black = "*"
+isort = "*"
 RISE = "*"
 
 
