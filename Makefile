@@ -7,3 +7,4 @@ STARTUP_FILES:=$(wildcard profile_default/startup/*.py)
 	ln -fs $(ROOT_DIR)/$(@) $(HOME)/$(@)
 
 install: .PHONY
+

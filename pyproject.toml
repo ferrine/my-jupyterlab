@@ -6,12 +6,11 @@ authors = ["Max Kochurov <max.kochurov@pymc-labs.io>"]
 
 [tool.poetry.dependencies]
 python = "^3.9"
-jupyterlab = "*"
+jupyterlab = ">=4.0.2"
 jupyterlab-git = "*"
-jupyterlab-spellchecker = "*"
 ipywidgets = "*"
-jupyterlab-lsp = "*"
-jedi-language-server = "*"
+dask-labextension = "*"
+jupyterlab_latex = "*"
 RISE = "*"
 
 
