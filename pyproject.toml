@@ -6,8 +6,8 @@ authors = ["Max Kochurov <max.kochurov@pymc-labs.io>"]
 
 [tool.poetry.dependencies]
 python = "^3.9"
-jupyterlab = "<4"
-jupyterlab-git = "*"
+jupyterlab = ">4"
+#jupyterlab-git = "*"
 ipywidgets = "*"
 dask-labextension = "*"
 jupyterlab_latex = "*"
