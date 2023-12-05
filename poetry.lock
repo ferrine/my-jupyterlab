@@ -1535,6 +1535,17 @@ files = [
 ]
 
 [[package]]
+name = "jupyterlab-quarto"
+version = "0.2.8"
+description = "Jupyter extension to enable authoring of Quarto documents within Jupyterlab Notebooks."
+optional = false
+python-versions = ">=3.8"
+files = [
+    {file = "jupyterlab_quarto-0.2.8-py3-none-any.whl", hash = "sha256:09801084f820590a24d3ab1731d61298735c52803532f7b4e2e2c8e3277b0077"},
+    {file = "jupyterlab_quarto-0.2.8.tar.gz", hash = "sha256:cc8b529a05834b0581d4580aef42085fb31b8d4d50a0d3e218a6c442fa1570aa"},
+]
+
+[[package]]
 name = "jupyterlab-server"
 version = "2.25.2"
 description = "A set of server components for JupyterLab and JupyterLab like applications."
@@ -3284,4 +3295,4 @@ testing = ["big-O", "jaraco.functools", "jaraco.itertools", "more-itertools", "p
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.9"
-content-hash = "e56e655eba5cc7d3c941f9c3a6932badbd3c0102ab8441fcfed3cb3506ecfc65"
+content-hash = "14cfbcbd046636d24789d047b4cfaf5297156ef7b1520c0276b7ab483fd8c868"
