@@ -5,8 +5,8 @@ description = "JupyterLab with core useful extensions"
 authors = ["Max Kochurov <max.kochurov@pymc-labs.io>"]
 
 [tool.poetry.dependencies]
-python = "^3.9"
-jupyterlab = "^4.0.9"
+python = "^3.10"
+jupyterlab = { version="^4.0.9"}
 jupyterlab-git = "^0.50.0"
 ipywidgets = "*"
 dask-labextension = "*"
@@ -15,7 +15,6 @@ jupyterlab-code-formatter = "*"
 black = "*"
 isort = "*"
 RISE = "*"
-jupyterlab-quarto = "^0.2.8"
 
 
 [build-system]
