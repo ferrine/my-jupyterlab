@@ -1599,6 +1599,17 @@ files = [
 notebook = "*"
 
 [[package]]
+name = "jupyterlab-mathjax2"
+version = "4.0.0"
+description = "A MathJax Typesetting provider for JupyterLab 4 and above"
+optional = false
+python-versions = ">=3.8"
+files = [
+    {file = "jupyterlab_mathjax2-4.0.0-py3-none-any.whl", hash = "sha256:c65c401ee5638e7cbf1223ba95aceed8b26a2a3e48fd1d585a10dd95b9327a8f"},
+    {file = "jupyterlab_mathjax2-4.0.0.tar.gz", hash = "sha256:1748fc09e18ef6f878670e400932dc3a08db012d97f4680c238a3a38f7af2461"},
+]
+
+[[package]]
 name = "jupyterlab-pygments"
 version = "0.3.0"
 description = "Pygments theme using JupyterLab CSS variables"
@@ -3401,4 +3412,4 @@ testing = ["big-O", "jaraco.functools", "jaraco.itertools", "more-itertools", "p
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.10"
-content-hash = "908aa54f9081b3b199e2762c1d76bb3dec5b6de81b72a3377e2d22869f7b6aa6"
+content-hash = "008b1c68d1f3cbb89b52815b5a314b5e8c4eb505f6081e6b693ae5a45d606c24"

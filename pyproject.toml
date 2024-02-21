@@ -16,6 +16,7 @@ black = "*"
 isort = "*"
 RISE = "*"
 jupyterlab-quarto = "^0.2.8"
+jupyterlab-mathjax2 = "^4.0.0"
 
 
 [build-system]
